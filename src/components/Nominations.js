@@ -5,7 +5,7 @@ const Nominations = ({nominated, remove}) => {
     const list = nominated.map((title,index) => {
         return (
             
-                <div>
+                <div className="list">
                     <h3 key={index}>{title}</h3>
                     <button onClick={() => remove(index)}>Remove from List</button>
                 </div>

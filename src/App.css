@@ -28,20 +28,25 @@ input {
 .movies { 
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   padding: 2em;
   margin: 2em;
 }
 
 li { 
   list-style: none;
-  height: 150px;
+  height: 250px;
+  width: 100px;
   padding-top: 1em;
+  margin-bottom: 2em;
   line-height: 1.5;
 }
 
 .nominated { 
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+
 }
 
 h1 { 
@@ -50,4 +55,9 @@ h1 {
 
 button { 
   background-color: #fff;
+}
+
+.list { 
+  height: 250px; 
+  width: 100px;
 }
